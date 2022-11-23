@@ -1,0 +1,15 @@
+* {font-family: sans-serif;}
+
+html {
+    background-color: rgb(192, 159, 128);
+}
+
+nav, footer {
+    background-color: rgb(86, 86, 86);
+    font-family: Roboto;
+}
+
+h1 {
+    background-color: rgb(118, 50, 63);
+    margin: 0px;
+}
