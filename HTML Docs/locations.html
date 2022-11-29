@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bob's Discount Furniture - Locations</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../Assets/CSS/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Locations</h1>
+        <nav>
+            <hr>
+            <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="products.html"><li>Products</li></a>
+                <a href="locations.html"><li>Locations</li></a>
+                <a href="about.html"><li>About</li></a>
+            </ul>
+            <hr>
+        </nav>
+        <picture>
+            <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
+        </picture>
+
+        <hr>
+        <footer>
+            <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
+                <label for="email">E-Mail:</label>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+                <br>
+                <input type="submit" name="submit" value="Submit" onclick="validate()">
+            </form>
+            <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
+                <label for="feedback">Site Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
+                <br>
+                <input type="submit" name="submit" value="Submit" onclick="validate()">
+            </form>
+            <div>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></div>
+        </footer>
+    <hr>
+    </body>
+</html>
