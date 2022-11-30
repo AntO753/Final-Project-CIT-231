@@ -19,34 +19,40 @@
             <hr>
         </nav>
         <picture>
-            <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner" id="bannerimg">
+            <source media="(min-width: 768px)" srcset="..\Assets\Images\bobsbanner.png">
+            <source media="(min-width: 200px)" srcset="..\Assets\Images\bobsbannersmall.png">
+            <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
         </picture>
-        <main>
-            <div>
+        <main id="flex_box">
+            <div class="vwflex">
                 <h2>Special Deals:</h2>
                     <p>Gray Recliner - $599.00</p>
                     <picture>
-                        <img src="..\Assets\Images\bobsrecliner.png" alt="Gray Recliner">
+                        <img src="..\Assets\Images\bobsrecliner.png" alt="Gray Recliner" id="homepage_images">
                     </picture>
                     <p>Bob-O-Pedic King Size Plush Matress - $2000.00</p>
                     <picture>
-                        <img src="..\Assets\Images\bobsmattress.png" alt="Plush Mattress">
+                        <img src="..\Assets\Images\bobsmattress.png" alt="Plush Mattress" id="homepage_images">
                     </picture>
             </div>
-            <div>
+            <div class="vwflex">
                 <h2>Bob's Fall Collection:</h2>
                     <p>Bob's Fireplace TV Stand - $300.00</p>
                     <picture>
-                        <img src="..\Assets\Images\bobsfireplace.png" alt="Fireplace/TV Stand">
+                        <img src="..\Assets\Images\bobsfireplace.png" alt="Fireplace/TV Stand" id="homepage_images">
                     </picture>
                     <p>Glass Coffee Table - $150.00</p>
                     <picture>
-                        <img src="..\Assets\Images\bobscoffeetable.png" alt="Coffee Table">
+                        <img src="..\Assets\Images\bobscoffeetable.png" alt="Coffee Table" id="homepage_images">
                     </picture>
                     <p>Vanity Set w/ Pop Up Mirror - $250.00</p>
                     <picture>
-                        <img src="..\Assets\Images\bobsvanityset.png" alt="Vanity Set">
+                        <img src="..\Assets\Images\bobsvanityset.png" alt="Vanity Set" id="homepage_images">
                     </picture>
+            </div>
+            <div>
+                <p>Welcome to Bob's Discount Furniture! Check out our current products, locations, and more about the company by using the navigation bar at the top of the page.</p>
+                <img src="..\Assets\Images\Bob_Gif_2.gif" alt="Bob's Furniture Gif">
             </div>
         </main>
     <hr>
