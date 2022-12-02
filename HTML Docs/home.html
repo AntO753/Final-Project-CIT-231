@@ -24,8 +24,8 @@
             <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
         </picture>
         <main id="flex_box">
-            <div class="vwflex">
-                <h2>Special Deals:</h2>
+            <div class="vwflex2">
+                <h2 class="centered_text">Special Deals:</h2>
                     <p>Gray Recliner - $599.00</p>
                     <picture>
                         <img src="..\Assets\Images\bobsrecliner.png" alt="Gray Recliner" id="homepage_images">
@@ -35,8 +35,8 @@
                         <img src="..\Assets\Images\bobsmattress.png" alt="Plush Mattress" id="homepage_images">
                     </picture>
             </div>
-            <div class="vwflex">
-                <h2>Bob's Fall Collection:</h2>
+            <div class="vwflex2">
+                <h2 class="centered_text">Bob's Fall Collection:</h2>
                     <p>Bob's Fireplace TV Stand - $300.00</p>
                     <picture>
                         <img src="..\Assets\Images\bobsfireplace.png" alt="Fireplace/TV Stand" id="homepage_images">
@@ -51,28 +51,34 @@
                     </picture>
             </div>
             <div>
-                <p>Welcome to Bob's Discount Furniture! Check out our current products, locations, and more about the company by using the navigation bar at the top of the page.</p>
-                <img src="..\Assets\Images\Bob_Gif_2.gif" alt="Bob's Furniture Gif">
+                <p class="centered_text2">Welcome to Bob's Discount Furniture! Check out our current products, locations, and more about the company by using the navigation bar at the top of the page.</p>
+                <img src="..\Assets\Images\Bob_Gif_2.gif" alt="Bob's Furniture Gif" id="bobgif">
             </div>
         </main>
     <hr>
-        <footer>
-            <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
-                <label for="email">E-Mail:</label>
-                <input type="text" id="email" name="email" required>
-                <br>
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone" required>
-                <br>
-                <input type="submit" name="submit" value="Submit" onclick="validate()">
-            </form>
-            <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
-                <label for="feedback">Site Feedback:</label>
-                <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
-                <br>
-                <input type="submit" name="submit" value="Submit" onclick="validate()">
-            </form>
-            <p>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></p>
+        <footer id="flex_box">
+            <div class="vwflex">
+                <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
+                    <label for="email">E-Mail:</label>
+                    <input type="text" id="email" name="email" required>
+                    <br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    <br>
+                    <input type="submit" name="submit" value="Submit" onclick="validate()">
+                </form>
+            </div>
+            <div class="vwflex">
+                <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
+                    <label for="feedback">Site Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
+                    <br>
+                    <input type="submit" name="submit" value="Submit" onclick="validate()">
+                </form>
+            </div>
+            <div class="vwflexfooter">
+                <p class="footerfont"><b>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></b></p>
+            </div>
         </footer>
     <hr>
     </body>
