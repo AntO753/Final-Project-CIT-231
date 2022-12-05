@@ -4,25 +4,31 @@
         <title>Bob's Discount Furniture - Home</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../Assets/CSS/styles.css">
+        <script src="../Assets/JavaScript/scripts.js" async></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1 class="centered_text_heading">Home</h1>
-        <nav>
-            <hr>
-            <ul>
-                <a href="home.html"><li>Home</li></a>
-                <a href="products.html"><li>Products</li></a>
-                <a href="locations.html"><li>Locations</li></a>
-                <a href="about.html"><li>About</li></a>
-            </ul>
-            <hr>
-        </nav>
-        <picture>
-            <source media="(min-width: 768px)" srcset="..\Assets\Images\bobsbanner.png">
-            <source media="(min-width: 200px)" srcset="..\Assets\Images\bobsbannersmall.png">
-            <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
-        </picture>
+        <header>
+            <div>
+                <h1 class="centered_text_heading">Home</h1>
+                <button id="darkmode" onclick="darkMode()">Dark Mode</button>
+            </div>
+            <nav>
+                <hr>
+                <ul>
+                    <a href="home.html"><li>Home</li></a>
+                    <a href="products.html"><li>Products</li></a>
+                    <a href="locations.html"><li>Locations</li></a>
+                    <a href="about.html"><li>About</li></a>
+                </ul>
+                <hr>
+            </nav>
+            <picture>
+                <source media="(min-width: 768px)" srcset="..\Assets\Images\bobsbanner.png">
+                <source media="(min-width: 200px)" srcset="..\Assets\Images\bobsbannersmall.png">
+                <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
+            </picture>
+        </header>
         <main id="flex_box">
             <div class="vwflex2">
                 <h2 class="centered_text">Special Deals:</h2>
@@ -56,7 +62,7 @@
             </div>
         </main>
     <hr>
-        <footer id="flex_box">
+        <footer id="flex_box_2">
             <div class="vwflex">
                 <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
                     <label for="email">E-Mail:</label>

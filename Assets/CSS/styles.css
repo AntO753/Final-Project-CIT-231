@@ -12,7 +12,7 @@ footer {
 
 h1 {
     background-color: rgb(118, 50, 63);
-    margin: 5px;
+    margin: 5px 0px;
     font-family: Verdana;
 }
 
@@ -73,7 +73,13 @@ input, textarea {
 }
 
 .vwflex2 {
-    padding-right: 5vw;
+    padding: 0px 2.5vw;
+    text-align: center;
+}
+
+.vwflex3 {
+    padding: 0px 1vw;
+    text-align: center;
 }
 
 .vwflexfooter {
@@ -99,6 +105,11 @@ input, textarea {
     width: 100%; 
 }
 
+.listsproducts {
+    list-style-type: none;
+    padding-left: 0%;
+}
+
 #homepage_images {
     max-width: 467px;
 }
@@ -107,8 +118,45 @@ input, textarea {
     max-width: 606px;
 }
 
+#sofa1products {
+    max-width: 293px;
+}
+
+#sofa2products {
+    max-width: 287px;
+}
+
+#table1products {
+    max-width: 310px;
+}
+
+#table2products {
+    max-width: 305px;
+}
+
+#chair1products {
+    max-width: 306px;
+}
+
+#chair2products {
+    max-width: 297px;
+}
+
+#bed1products {
+    max-width: 298px;
+}
+
+#bed2products {
+    max-width: 300px;
+}
+
 #flex_box {
     display: flex;
     font-size: 1.2vw;
+    text-align: center;
 }
 
+#flex_box_2 {
+    display: flex;
+    font-size: 1.2vw;
+}
