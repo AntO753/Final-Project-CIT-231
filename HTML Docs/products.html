@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Bob's Discount Furniture - Products</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../Assets/CSS/styles.css">
+        <script src="../Assets/JavaScript/scripts.js" async></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
             <div>
                 <h1 class="centered_text_heading">Products</h1>
-                <button id="darkmode" onclick="darkMode()">Dark Mode</button>
             </div>
             <nav>
                 <hr>
@@ -93,23 +93,34 @@
     </main>
 
     <hr>
-    <footer>
-        <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
-            <label for="email">E-Mail:</label>
-            <input type="text" id="email" name="email" required>
-            <br>
-            <label for="phone">Phone Number:</label>
-            <input type="text" id="phone" name="phone" required>
-            <br>
-            <input type="submit" name="submit" value="Submit" onclick="validate()">
-        </form>
-        <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
-            <label for="feedback">Site Feedback:</label>
-            <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
-            <br>
-            <input type="submit" name="submit" value="Submit" onclick="validate()">
-        </form>
-        <div>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></div>
+    <footer id="flex_box_2">
+        <div class="footerpadding" id="flex_box_2">
+            <div class="vwflex">
+                <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <input type="submit" name="submit" value="Submit">
+                    <p id="errs" class="error hidden"></p>
+                </form>
+            </div>
+            <div class="vwflex">
+                <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
+                    <label for="feedback">Site Feedback</label>
+                    <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
+                    <br>
+                    <input type="submit" name="submit" value="Submit">
+                    <p id="errss" class="error hidden"></p>
+                </form>
+            </div>
+            <div class="vwflex4">
+                <p class="footerfont"><b>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></b></p>
+                <button id="darkmode" onclick="darkMode()">Dark Mode</button>
+            </div>
+        </div>
     </footer>
     <hr>
     </body>

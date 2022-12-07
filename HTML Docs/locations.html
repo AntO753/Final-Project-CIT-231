@@ -1,69 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Bob's Discount Furniture - Locations</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../Assets/CSS/styles.css">
+        <script src="../Assets/JavaScript/scripts.js" async></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1>Locations</h1>
-        <nav>
-            <hr>
-            <ul>
-                <a href="home.html"><li>Home</li></a>
-                <a href="products.html"><li>Products</li></a>
-                <a href="locations.html"><li>Locations</li></a>
-                <a href="about.html"><li>About</li></a>
-            </ul>
-            <hr>
-        </nav>
-        <picture>
-            <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
-        </picture>
-
-        <main>
-            <div>
-            <h2>New York City Locations</h2>
+        <header>
+            <h1 class="centered_text_heading">Locations</h1>
+            <nav>
+                <hr>
+                <ul>
+                    <a href="home.html"><li>Home</li></a>
+                    <a href="products.html"><li>Products</li></a>
+                    <a href="locations.html"><li>Locations</li></a>
+                    <a href="about.html"><li>About</li></a>
+                </ul>
+                <hr>
+            </nav>
+            <picture>
+                <source media="(min-width: 768px)" srcset="..\Assets\Images\bobsbanner.png">
+                <source media="(min-width: 200px)" srcset="..\Assets\Images\bobsbannersmall.png">
+                <img src="..\Assets\Images\bobsbanner.png" alt="Bob's Discount Furniture Banner">
+            </picture>
+        </header>
+        <main id="flex_box">
+            <div id="flex_box" class="locationpadding">
+                <div class="vwflex2">
+                <h2>New York City Locations</h2>
                 
-                <p> <b> Manhattan: </b> </p>
-                <p>517 E 117th St</p>
-                <p>New York, NY 10035</p>
-                <p>(646)400-6180</p>
-                <img src="..\Assets\Images\BobsManhattan.png" alt="Bobs Manhattan Store">
-                <p> <b> The Bronx: </b> </p>
-                <p>171 W 230th St </p>
-                <p>The Bronx, NY 10463</p>
-                <p>(347)708-9009</p>
-                <img src="..\Assets\Images\BobsBronx.png" alt="Bobs Bronx Store">
-                <p> <b> Brooklyn: </b> </p>
-                <p>2520 Flatbush Ave </p>
-                <p>Brooklyn, NY 10463</p>
-                <p>(347)415-8307</p>
-                <img src="..\Assets\Images\BobsBrooklyn.png" alt="Bobs Brooklyn Store">
+                    <p> <b> Manhattan: </b> </p>
+                    <p>517 E 117th St</p>
+                    <p>New York, NY 10035</p>
+                    <p>(646)400-6180</p>
+                    <img src="..\Assets\Images\BobsManhattan.png" alt="Bobs Manhattan Store" id="locationsimages">
+                    <p> <b> The Bronx: </b> </p>
+                    <p>171 W 230th St </p>
+                    <p>The Bronx, NY 10463</p>
+                    <p>(347)708-9009</p>
+                    <img src="..\Assets\Images\BobsBronx.png" alt="Bobs Bronx Store" id="locationsimages">
+                    <p> <b> Brooklyn: </b> </p>
+                    <p>2520 Flatbush Ave </p>
+                    <p>Brooklyn, NY 10463</p>
+                    <p>(347)415-8307</p>
+                    <img src="..\Assets\Images\BobsBrooklyn.png" alt="Bobs Brooklyn Store" id="locationsimages">
 
+                </div>
+                <div class="vwflex2">
+                <h2>New York Region Locations</h2>
+                
+                    <p> <b> Nanuet: </b> </p>
+                    <p>250 E. Route 59</p>
+                    <p>Nanuet, NY 10954</p>
+                    <p>(845)627-0823</p>
+                    <img src="..\Assets\Images\BobsNanuet.png" alt="Bobs Nanuet Store" id="locationsimages">
+                    <p> <b> Yonkers: </b> </p>
+                    <p>2500 Central Park Ave </p>
+                    <p>Yonkers, NY 10710</p>
+                    <p>(914)202-1200</p>
+                    <img src="..\Assets\Images\BobsYonkers.png" alt="Bobs Yonkers Store" id="locationsimages">
+                    <p> <b> Farmingdale: </b> </p>
+                        <p>1999 Broadhollow Road </p>
+                    <p>Farmingdale, NY 11735</p>
+                    <p>(631)386-1020</p>
+                    <img src="..\Assets\Images\BobsFarmingdale.png" alt="Bobs Farmingdale Store" id="locationsimages">
+
+                </div> 
             </div>
-            <div>
-            <h2>New York Region Locations</h2>
-                
-                <p> <b> Nanuet: </b> </p>
-                <p>250 E. Route 59</p>
-                <p>Nanuet, NY 10954</p>
-                <p>(845)627-0823</p>
-                <img src="..\Assets\Images\BobsNanuet.png" alt="Bobs Nanuet Store">
-                <p> <b> Yonkers: </b> </p>
-                <p>2500 Central Park Ave </p>
-                <p>Yonkers, NY 10710</p>
-                <p>(914)202-1200</p>
-                <img src="..\Assets\Images\BobsYonkers.png" alt="Bobs Yonkers Store">
-                <p> <b> Farmingdale: </b> </p>
-                <p>1999 Broadhollow Road </p>
-                <p>Farmingdale, NY 11735</p>
-                <p>(631)386-1020</p>
-                <img src="..\Assets\Images\BobsFarmingdale.png" alt="Bobs Farmingdale Store">
-
-            </div> 
-
 
         </main>
 
@@ -71,23 +76,34 @@
 
 
         <hr>
-        <footer>
-            <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
-                <label for="email">E-Mail:</label>
-                <input type="text" id="email" name="email" required>
-                <br>
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone" required>
-                <br>
-                <input type="submit" name="submit" value="Submit" onclick="validate()">
-            </form>
-            <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
-                <label for="feedback">Site Feedback:</label>
-                <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
-                <br>
-                <input type="submit" name="submit" value="Submit" onclick="validate()">
-            </form>
-            <div>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></div>
+        <footer id="flex_box_2">
+            <div class="footerpadding" id="flex_box_2">
+                <div class="vwflex">
+                    <form action="successfan.html" method="get" name="fanSubscription" id="siteSubscription">
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        <input type="submit" name="submit" value="Submit">
+                        <p id="errs" class="error hidden"></p>
+                    </form>
+                </div>
+                <div class="vwflex">
+                    <form action="successfeedback.html" method="get" name="siteFeedback" id="siteFeedback">
+                        <label for="feedback">Site Feedback</label>
+                        <textarea id="feedback" name="feedback" rows="7" columns="3" required></textarea>
+                        <br>
+                        <input type="submit" name="submit" value="Submit">
+                        <p id="errss" class="error hidden"></p>
+                    </form>
+                </div>
+                <div class="vwflex4">
+                    <p class="footerfont"><b>Questions? Send an e-mail to <a href = "mailto:email@email.com">bdfqa@bobs.com</a></b></p>
+                    <button id="darkmode" onclick="darkMode()">Dark Mode</button>
+                </div>
+            </div>
         </footer>
     <hr>
     </body>
