@@ -7,14 +7,14 @@ html {
 footer {
     background-color: rgb(86, 86, 86);
     color: white;
-    font-size: 1vw;
+    font-size: 2.4vw;
 }
 
 h1 {
     background-color: rgb(118, 50, 63);
     margin: 5px 0px;
     font-family: Verdana;
-}
+}   
 
 li, footer, h2 {
     font-family: Verdana;
@@ -23,9 +23,9 @@ li, footer, h2 {
 nav {
     text-align: center;
     background-color: rgb(86, 86, 86);
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
-  
+
 nav li {
     display: inline-block;
     width: 20%;
@@ -65,7 +65,7 @@ iframe {
 
 .centered_text_heading {
     text-align: center;
-    font-size: 2.4vw; 
+    font-size: 3.5vw; 
     font-weight: bold;  
     vertical-align: middle; 
     width: 100%;
@@ -74,12 +74,12 @@ iframe {
 }
 
 .vwflex {
-    padding-right: 7vw;
+    padding-right: 3vw;
 }
 
 .vwflex2 {
-    padding: 0px 2.5vw;
     text-align: center;
+    font-size: 3vw;
 }
 
 .vwflex3 {
@@ -92,7 +92,7 @@ iframe {
 }
 
 .footerfont {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .centered_text {
@@ -106,6 +106,7 @@ iframe {
     text-align: center; 
     vertical-align: middle; 
     width: 100%; 
+    font-size: 3vw;
 }
 
 .listsproducts {
@@ -122,11 +123,6 @@ iframe {
     background-color: rgb(118, 50, 63);
     margin: 5px 0px;
     font-family: Verdana;
-}
-
-.footerpadding {
-    padding-left: 15.2vw;
-    padding-right: 15.2vw;
 }
 
 .locationpadding {
@@ -178,13 +174,388 @@ iframe {
     max-width: 300px;
 }
 
-#flex_box {
-    display: flex;
-    font-size: 1.2vw;
-    text-align: center;
+@media only screen and (min-width: 768px) {
+
+    html {
+        background-color: rgb(192, 159, 128);
+    }
+
+    footer {
+        background-color: rgb(86, 86, 86);
+        color: white;
+        font-size: 1.2vw;
+    }
+
+    h1 {
+        background-color: rgb(118, 50, 63);
+        margin: 5px 0px;
+        font-family: Verdana;
+    }   
+
+    li, footer, h2 {
+        font-family: Verdana;
+    }
+
+    nav {
+        text-align: center;
+        background-color: rgb(86, 86, 86);
+        font-size: 1.5vw;
+    }
+  
+    nav li {
+        display: inline-block;
+        width: 20%;
+        background-color: rgb(86,86,86);
+        padding: 5px;
+    }
+
+    nav li:hover {
+        background-color: rgb(118, 50, 63);
+        padding: 5px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(86,86,86);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    input, textarea {
+        display: block;
+    }
+
+    iframe {
+        max-width: 1424px;
+        width: 100%;
+    }
+
+    .centered_text_heading {
+        text-align: center;
+        font-size: 2.9vw; 
+        font-weight: bold;  
+        vertical-align: middle; 
+        width: 100%;
+        color: white;
+        font-family: Verdana;
+    }
+
+    .vwflex {
+        padding-right: 7vw;
+    }
+
+    .vwflex2 {
+        padding: 0px 2.5vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .vwflex3 {
+        padding: 0px 1vw;
+        text-align: center;
+    }
+
+    .vwflex4 {
+        text-align: center;
+    }
+
+    .footerfont {
+        font-size: 1.5vw;
+    }
+
+    .centered_text {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+        font-weight: bold;
+    }
+
+    .centered_text2 {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+    }
+
+    .listsproducts {
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .darkmode {
+        background-color: black;
+        color: white;
+    }
+
+    .topbar {
+        background-color: rgb(118, 50, 63);
+        margin: 5px 0px;
+        font-family: Verdana;
+    }
+
+    .footerpadding {
+        padding-left: 15.2vw;
+        padding-right: 15.2vw;
+    }
+
+    .locationpadding {
+        padding-left: 18.25vw;
+        padding-right: 18.25vw;
+    }
+
+    #homepage_images {
+        max-width: 467px;
+    }
+
+    #locationsimages {
+        max-width: 307px;
+    }
+
+    #bobgif {
+        max-width: 606px;
+    }
+
+    #sofa1products {
+        max-width: 293px;
+    }
+
+    #sofa2products {
+        max-width: 287px;
+    }
+
+    #table1products {
+        max-width: 310px;
+    }
+
+    #table2products {
+        max-width: 305px;
+    }
+
+    #chair1products {
+        max-width: 306px;
+    }
+
+    #chair2products {
+        max-width: 297px;
+    }
+
+    #bed1products {
+        max-width: 298px;
+    }
+
+    #bed2products {
+        max-width: 300px;
+    }
+
+    #flex_box {
+        display: flex;
+        font-size: 1.7vw;
+        text-align: center;
+    }
+
+    #flex_box_2 {
+        display: flex;
+        font-size: 1.7vw;
+    }
 }
 
-#flex_box_2 {
-    display: flex;
-    font-size: 1.2vw;
+@media only screen and (min-width: 1200px) {
+
+    html {
+        background-color: rgb(192, 159, 128);
+    }
+
+    footer {
+        background-color: rgb(86, 86, 86);
+        color: white;
+        font-size: 1vw;
+    }
+
+    h1 {
+        background-color: rgb(118, 50, 63);
+        margin: 5px 0px;
+        font-family: Verdana;
+    }   
+
+    li, footer, h2 {
+        font-family: Verdana;
+    }
+
+    nav {
+        text-align: center;
+        background-color: rgb(86, 86, 86);
+        font-size: 1.2vw;
+    }
+  
+    nav li {
+        display: inline-block;
+        width: 20%;
+        background-color: rgb(86,86,86);
+        padding: 5px;
+    }
+
+    nav li:hover {
+        background-color: rgb(118, 50, 63);
+        padding: 5px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(86,86,86);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    input, textarea {
+        display: block;
+    }
+
+    iframe {
+        max-width: 1424px;
+        width: 100%;
+    }
+
+    .centered_text_heading {
+        text-align: center;
+        font-size: 2.4vw; 
+        font-weight: bold;  
+        vertical-align: middle; 
+        width: 100%;
+        color: white;
+        font-family: Verdana;
+    }
+
+    .vwflex {
+        padding-right: 7vw;
+    }
+
+    .vwflex2 {
+        padding: 0px 2.5vw;
+        text-align: center;
+        font-size: 1.2vw;
+    }
+
+    .vwflex3 {
+        padding: 0px 1vw;
+        text-align: center;
+    }
+
+    .vwflex4 {
+        text-align: center;
+    }
+
+    .footerfont {
+        font-size: 1.5vw;
+    }
+
+    .centered_text {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+        font-weight: bold;
+    }
+
+    .centered_text2 {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+    }
+
+    .listsproducts {
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .darkmode {
+        background-color: black;
+        color: white;
+    }
+
+    .topbar {
+        background-color: rgb(118, 50, 63);
+        margin: 5px 0px;
+        font-family: Verdana;
+    }
+
+    .footerpadding {
+        padding-left: 15.2vw;
+        padding-right: 15.2vw;
+    }
+
+    .locationpadding {
+        padding-left: 18.25vw;
+        padding-right: 18.25vw;
+    }
+
+    #homepage_images {
+        max-width: 467px;
+    }
+
+    #locationsimages {
+        max-width: 307px;
+    }
+
+    #bobgif {
+        max-width: 606px;
+    }
+
+    #sofa1products {
+        max-width: 293px;
+    }
+
+    #sofa2products {
+        max-width: 287px;
+    }
+
+    #table1products {
+        max-width: 310px;
+    }
+
+    #table2products {
+        max-width: 305px;
+    }
+
+    #chair1products {
+        max-width: 306px;
+    }
+
+    #chair2products {
+        max-width: 297px;
+    }
+
+    #bed1products {
+        max-width: 298px;
+    }
+
+    #bed2products {
+        max-width: 300px;
+    }
+
+    #flex_box {
+        display: flex;
+        font-size: 1.2vw;
+        text-align: center;
+    }
+
+    #flex_box_2 {
+        display: flex;
+        font-size: 1.2vw;
+    }
 }

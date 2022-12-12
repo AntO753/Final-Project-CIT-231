@@ -40,6 +40,7 @@ const errss = document.querySelector("#errss")
 cntFrm2.elements.submit.addEventListener("click", contactValidation2)
 
 function contactValidation2(event) {
+    var max_chars = 200;
     let errors = []
     for(let i=0; i<cntFrm2.elements.length; i++) {
         let field = cntFrm2.elements[i]
@@ -48,10 +49,16 @@ function contactValidation2(event) {
           
                 errors.push("You must enter information into the form.")
             }
-        }
+        
 
+       if(field.value.length > max_chars) {
+
+            errors.push("The maximum amount of characters is 200.")
+
+        }
     
-    
+    }
+       
 
     if(errors.length > 0) {
         errss.innerHTML = errors.join("<br>")
