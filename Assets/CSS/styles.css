@@ -85,10 +85,15 @@ iframe {
 .vwflex3 {
     padding: 0px 1vw;
     text-align: center;
+    font-size: 4vw;
 }
 
 .vwflex4 {
     text-align: center;
+}
+
+.vwflex5 {
+    font-size: 4vw;
 }
 
 .footerfont {
@@ -262,10 +267,16 @@ iframe {
     .vwflex3 {
         padding: 0px 1vw;
         text-align: center;
+        font-size: 2vw;
     }
 
     .vwflex4 {
         text-align: center;
+    }
+
+    .vwflex5 {
+        padding: 0px 2.5vw;
+        font-size: 2vw;
     }
 
     .footerfont {
@@ -393,7 +404,7 @@ iframe {
     nav {
         text-align: center;
         background-color: rgb(86, 86, 86);
-        font-size: 1.7vw;
+        font-size: 1.5vw;
     }
   
     nav li {
@@ -435,7 +446,7 @@ iframe {
 
     .centered_text_heading {
         text-align: center;
-        font-size: 2.9vw; 
+        font-size: 2.7vw; 
         font-weight: bold;  
         vertical-align: middle; 
         width: 100%;
@@ -460,6 +471,11 @@ iframe {
 
     .vwflex4 {
         text-align: center;
+    }
+
+    .vwflex5 {
+        padding: 0px 2.5vw;
+        font-size: 1.7vw;
     }
 
     .footerfont {
@@ -558,6 +574,6 @@ iframe {
 
     #flex_box_2 {
         display: flex;
-        font-size: 1.7vw;
+        font-size: 1.5vw;
     }
 }
