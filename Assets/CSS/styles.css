@@ -388,7 +388,7 @@ iframe {
     footer {
         background-color: rgb(86, 86, 86);
         color: white;
-        font-size: 1vw;
+        font-size: 1.3vw;
     }
 
     h1 {
@@ -404,7 +404,7 @@ iframe {
     nav {
         text-align: center;
         background-color: rgb(86, 86, 86);
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
   
     nav li {
@@ -446,7 +446,7 @@ iframe {
 
     .centered_text_heading {
         text-align: center;
-        font-size: 2.7vw; 
+        font-size: 2.5vw; 
         font-weight: bold;  
         vertical-align: middle; 
         width: 100%;
@@ -461,12 +461,13 @@ iframe {
     .vwflex2 {
         padding: 0px 2.5vw;
         text-align: center;
-        font-size: 1.7vw;
+        font-size: 1.3vw;
     }
 
     .vwflex3 {
         padding: 0px 1vw;
         text-align: center;
+        font-size: 1.2vw;
     }
 
     .vwflex4 {
@@ -479,7 +480,7 @@ iframe {
     }
 
     .footerfont {
-        font-size: 1.7vw;
+        font-size: 1.5vw;
     }
 
     .centered_text {
@@ -493,7 +494,7 @@ iframe {
         text-align: center; 
         vertical-align: middle; 
         width: 100%;
-        font-size: 1.7vw; 
+        font-size: 1.3vw; 
     }
 
     .listsproducts {
@@ -574,6 +575,6 @@ iframe {
 
     #flex_box_2 {
         display: flex;
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 }
